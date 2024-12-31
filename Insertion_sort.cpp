@@ -16,15 +16,19 @@ void    insrt(int arr[],int s){
 int main(){
     int arr[]={3,1,4,2,6};
      int s=sizeof(arr)/sizeof(arr[0]);
+     cout<<"Before sorting"<<endl;
+
     for (int i=0;i<s;i++){
-        cout<<arr[i]<<" "<<endl;
+    cout<<arr[i]<<" "<<endl;
     }
-        cout<<"after sorting"<<endl;
+    cout<<"after sorting"<<endl;
+
 
     insrt(arr,s);
     for (int i=0;i<s;i++){
         cout<<arr[i]<<" "<<endl;
     }
+
 
 
 }

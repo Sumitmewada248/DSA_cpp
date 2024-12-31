@@ -3,10 +3,12 @@ using namespace std;
 
 class cybrom{
 char name[20];
+
 int rno;
 public:void input(){
 cout<<"enter rollno \n";
 cin>>rno;
+
 cout<<"enter name \n";
 cin>>name;
 }
