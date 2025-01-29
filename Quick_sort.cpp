@@ -1,4 +1,4 @@
-#include<iostream>
+fx#include<iostream>
 using namespace std;
 
 int divide(int arr[],int low,int high){
@@ -29,7 +29,7 @@ int divide(int arr[],int low,int high){
     return j;
 
 
-    
+
 }
 
 void qsort(int arr[],int low,int high){
@@ -39,7 +39,7 @@ void qsort(int arr[],int low,int high){
         qsort(arr,low,pivot-1);
         qsort(arr,pivot+1,high);
     }
-    
+
 }
 
 
