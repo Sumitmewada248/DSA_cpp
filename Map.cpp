@@ -13,13 +13,39 @@ using namespace std;
 int main(){
 
 map<int ,string> mp;
-mp.insert({10,"raju"});
+/*mp.insert({10,"raju"});
 mp.insert({484,"leela"});
 mp.insert({158,"manhoosh"});
+*/
+
+mp[101]="amit";
+mp[121]="sona";
+mp[5]="moti";
+
+
+map<string,int>mp1;
+
+mp1["raju"]=10;
+mp1["leela"]=20;
+mp1["manhoosh"];
+
+for(auto p:mp1){
+cout<<p.first<<" ";
+cout<<p.second;
+cout<<endl;
+}
+cout<<endl;
+
 for(auto p:mp){
-cout<<p.first;
+cout<<p.first<<" "; 
 cout<<p.second;
 cout<<endl;
 
+}
+
+mp.erase(101);
+cout<<"After erase \n"; 
+for(auto p:mp){
+    cout<<p;
 }
 }
