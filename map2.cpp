@@ -21,4 +21,15 @@ cout<<"\n results \n";
 for (auto p:mp){
     cout<<p.first<<","<<p.second<<endl;
 }
+
+string s;
+cout<<"enter name to search : ";
+cin>>s;
+if (mp.find(s)!=mp.end()){
+    cout<<mp[s]<<endl;
+}
+
+else{
+    cout<<"record not found"<<endl;
+}
 }
