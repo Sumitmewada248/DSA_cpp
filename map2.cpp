@@ -1,7 +1,10 @@
 #include<iostream>
 using namespace std;
 #include<map>
+#include<vector>
+#include<string>
 
+/*
 int main(){
 map<string,int>mp;
 string name;
@@ -32,4 +35,25 @@ if (mp.find(s)!=mp.end()){
 else{
     cout<<"record not found"<<endl;
 }
+}
+*/
+
+int main(){
+map<string,vector<int>>mp;
+mp["roy"].push_back(123);
+mp["roy"].push_back(456);
+mp["roy"].push_back(789);
+mp["doy"].push_back(1011);
+mp["boy"].push_back(1011);
+mp["boy"].push_back(1011);
+
+for(auto p:mp){
+    cout<<p.first<<endl;
+    for(auto m:p.second){
+        cout<<m<<endl;
+    }
+}
+cout<<"\n";
+
+
 }
