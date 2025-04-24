@@ -23,7 +23,6 @@ int main(){
     }
     cout<<"after sorting"<<endl;
 
-
     insrt(arr,s);
     for (int i=0;i<s;i++){
         cout<<arr[i]<<" "<<endl;

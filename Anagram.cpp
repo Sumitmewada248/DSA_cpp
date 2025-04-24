@@ -7,7 +7,6 @@ char c1[10]="silent";
 char c2[10]="listen";
 int s[26]={0};
 
-
 for(int i=0;c1[i]!='\0';i++){
     s[c1[i]-'a']++;
 }
