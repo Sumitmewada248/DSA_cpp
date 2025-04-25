@@ -3,9 +3,9 @@ using namespace std;
 #include<array>
 
 int main(){
+
     array<int,6>b{20,10,5,6,8,9};
     cout<<"size=" <<b.size()<<endl;
-
    /* for (int i=0;i<b.size();i++){
 
         cout<<b[i]<<"\t";
